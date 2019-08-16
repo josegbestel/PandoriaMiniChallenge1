@@ -97,11 +97,10 @@
 		391E52592306D4CF00457C68 /* PandoriaMiniChallenge1 */ = {
 			isa = PBXGroup;
 			children = (
+				391E52882306D9EF00457C68 /* model */,
+				391E528B2306DA2800457C68 /* view */,
+				391E528A2306DA1D00457C68 /* controller */,
 				391E525A2306D4CF00457C68 /* AppDelegate.swift */,
-				391E525C2306D4CF00457C68 /* ViewController.swift */,
-				391E525E2306D4CF00457C68 /* Main.storyboard */,
-				391E52612306D4CF00457C68 /* Assets.xcassets */,
-				391E52632306D4CF00457C68 /* LaunchScreen.storyboard */,
 				391E52662306D4CF00457C68 /* Info.plist */,
 			);
 			path = PandoriaMiniChallenge1;
@@ -123,6 +122,31 @@
 				391E527C2306D4CF00457C68 /* Info.plist */,
 			);
 			path = PandoriaMiniChallenge1UITests;
+			sourceTree = "<group>";
+		};
+		391E52882306D9EF00457C68 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		391E528A2306DA1D00457C68 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		391E528B2306DA2800457C68 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				391E525C2306D4CF00457C68 /* ViewController.swift */,
+				391E525E2306D4CF00457C68 /* Main.storyboard */,
+				391E52612306D4CF00457C68 /* Assets.xcassets */,
+				391E52632306D4CF00457C68 /* LaunchScreen.storyboard */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
